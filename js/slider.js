@@ -1,4 +1,4 @@
-let slideIndex = 0;
+let slideIndex = 9;
 showSlides();
 
 function showSlides() {
