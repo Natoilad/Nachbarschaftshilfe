@@ -369,3 +369,9 @@ section {
     max-width: 1620px;
   }
 }
+
+@media (max-width: 768px) {
+  .modal-content p {
+    margin-bottom: 8px;
+  }
+}
