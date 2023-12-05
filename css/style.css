@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Abel", sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 section {
@@ -230,7 +230,7 @@ section {
   border-bottom: 1px solid #999;
 }
 .main_section_title::after {
-  content: "";
+  content: '';
   display: table;
   width: 50px;
   height: 3px;
@@ -372,6 +372,6 @@ section {
 
 @media (max-width: 768px) {
   .modal-content p {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
 }
