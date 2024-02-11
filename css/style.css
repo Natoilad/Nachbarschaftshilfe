@@ -343,7 +343,7 @@ section {
     display: none;
   }
   .Sponsoren_logo {
-    max-width: 560px;
+    /* max-width: 560px; */
   }
   .container,
   .container-fluid {

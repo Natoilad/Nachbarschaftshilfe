@@ -1,0 +1,87 @@
+.slider {
+  display: block;
+}
+
+.slide {
+  display: none;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide.active-slide {
+  opacity: 1; /* Показує тільки активний слайд */
+}
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgb(104, 169, 74);
+}
+
+.dot_container {
+  position: relative;
+  top: 100px;
+  z-index: 99;
+  text-align: center;
+}
+.arow_container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  position: relative;
+  top: 170px;
+}
+
+.left,
+.right {
+  cursor: pointer;
+  color: white;
+  scale: 4;
+}
+
+.right:hover,
+.left:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.Hinweis {
+  border-bottom: 2px solid red;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.read_more {
+  padding: 10px;
+  background-color: rgb(51, 153, 255);
+  color: #fff;
+}
+
+.read_more:hover {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  .arow_container {
+    top: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .left,
+  .right {
+    scale: 7;
+  }
+}
