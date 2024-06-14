@@ -374,4 +374,9 @@ section {
   .modal-content p {
     margin-bottom: 5px;
   }
+  .modal-content {
+    height: inherit;
+    overflow: auto;
+    margin-top: 100px;
+  }
 }
